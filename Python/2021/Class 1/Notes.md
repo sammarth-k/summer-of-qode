@@ -26,13 +26,17 @@ hello world
 2.0
 ```
 
-
+Overriding variable values
 ```python
 x = 'Hello World'
 x = 25
 print(x)
 ```
-25 is printed
+
+Output:
+```python
+25
+```
 
 Adding variables:
 ```python
