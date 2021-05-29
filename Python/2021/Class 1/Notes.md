@@ -1,14 +1,17 @@
 #variables and basic data types:
 
 #int
-'''python
+```python
 a = 5
-'''
+```
 #str
+```python
 b = 'hello world'
+```
 #float
+```python
 c = 2.0
-'''
+```
 
 #printing variables:
 
