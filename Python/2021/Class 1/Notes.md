@@ -1,10 +1,10 @@
 #variables and basic data types:
 
-# 1. int
+#int
 a = 5
-# 2. str
+#str
 b = 'hello world'
-#3.0 float
+#float
 c = 2.0
 
 #printing variables:
