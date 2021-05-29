@@ -1,7 +1,9 @@
 #variables and basic data types:
 
 #int
+'''python
 a = 5
+'''
 #str
 b = 'hello world'
 #float
