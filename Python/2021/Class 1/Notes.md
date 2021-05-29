@@ -14,8 +14,9 @@ c = 2.0
 ```
 
 #printing variables:
-
+```python
 print(a)
+```
 #5 is printed
 print(b)
 #hello world is printed
