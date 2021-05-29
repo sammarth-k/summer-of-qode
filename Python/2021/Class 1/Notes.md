@@ -64,6 +64,8 @@ HelloWorld
 //	Floor Division: rounds down to nearest integer
 **	Exponent
 ```
+#examples
+```python
 
 x= 2
 y= 5
@@ -74,8 +76,10 @@ print (x/y)
 print (x%y)
 print (y//x)
 print (x**y)
-
+```
 #output:
+```python
+
 7
 -3
 10
@@ -83,9 +87,9 @@ print (x**y)
 2
 2
 32
-
+```
 #assignment operators
-
+```python
 
 
 Operator	==> Operation
@@ -96,7 +100,9 @@ Operator	==> Operation
 # x//= (y) ==>	x= x // y
 # x**= (y)	==> x = x ** y
 # x%= (y)	==> x = x % y
-
+```
+Examples
+```python
 
 #equal to
 x = 2
@@ -121,11 +127,9 @@ x /= 4
 print(x)
 
 #equals to quotient (floor)
-'''python
 x = 20
 x //= 6
 print(x)
-'''
 
 #equals to value raised to the power
 x= 8
@@ -133,13 +137,14 @@ x **= 3
 print(x)
 
 #equals to remainder
-'''python
 x = 14
 x %= 4
 print(x)
-'''
+```
+
 #output:
-'''python
+```python
+
 20
 8
 12
@@ -147,4 +152,5 @@ print(x)
 3
 64
 2
-'''
+```
+
