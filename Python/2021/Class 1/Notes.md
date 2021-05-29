@@ -1,15 +1,10 @@
 #variables and basic data types:
 
-# 1. int
-'''python
+#int
 a = 5
-'''
-# 2. str
-'''python
+#str
 b = 'hello world'
-'''
-#3.0 float
-'''python
+#float
 c = 2.0
 '''
 
