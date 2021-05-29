@@ -18,18 +18,24 @@ c = 2.0
 print(a)
 ```
 #5 is printed
+```python
 print(b)
+```
 #hello world is printed
+```python
 print(c)
+```
 #2.0 is printed
 
+```python
 x = 'Hello World'
 x = 25
 print(x)
-
+```
 #25 is printed
 
 #adding variables:
+```python
 
 x = 'Hello'
 y = 'World'
@@ -39,22 +45,25 @@ y2 = 10
 z2 = x2 + y2
 print(z)
 print(z2)
-
+```
 #output:
+
+```python
 
 HelloWorld
 15
-
+```
 #arithmetic operators
+```python
 
-# +	Addition
-# -	Subtraction
-# *	Multiplication
-# /	Division
-# %	Remainder
-# //	Floor Division: rounds down to nearest integer
-# **	Exponent
-
++	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	Remainder
+//	Floor Division: rounds down to nearest integer
+**	Exponent
+```
 
 x= 2
 y= 5
