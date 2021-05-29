@@ -16,16 +16,16 @@ c = 2.0
 printing variables:
 ```python
 print(a)
-```
-5 is printed
-```python
 print(b)
-```
-hello world is printed
-```python
 print(c)
 ```
-2.0 is printed
+Output:
+```python
+5
+hello world
+2.0
+```
+
 
 ```python
 x = 'Hello World'
@@ -46,14 +46,14 @@ z2 = x2 + y2
 print(z)
 print(z2)
 ```
-#output:
+Output:
 
 ```python
 
 HelloWorld
 15
 ```
-#arithmetic operators
+Arithmetic operators
 ```python
 
 +	Addition
@@ -64,7 +64,7 @@ HelloWorld
 //	Floor Division: rounds down to nearest integer
 **	Exponent
 ```
-#examples
+Examples
 ```python
 
 x= 2
@@ -77,7 +77,7 @@ print (x%y)
 print (y//x)
 print (x**y)
 ```
-#output:
+Output:
 ```python
 
 7
@@ -88,12 +88,12 @@ print (x**y)
 2
 32
 ```
-#assignment operators
+Assignment operators
 ```python
 
 
 Operator	==> Operation
-x += (y) ==> 	x = x + y
+x+= (y) ==> 	x = x + y
 x-= (y) ==>	x = x - y
 x*= (y) ==> x = x * y
 x/= (y) ==>	x = x / y
@@ -142,7 +142,7 @@ x %= 4
 print(x)
 ```
 
-#output:
+Output:
 ```python
 
 20
