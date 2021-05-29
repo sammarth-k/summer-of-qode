@@ -1,11 +1,17 @@
 #variables and basic data types:
 
 # 1. int
+'''python
 a = 5
+'''
 # 2. str
+'''python
 b = 'hello world'
+'''
 #3.0 float
+'''python
 c = 2.0
+'''
 
 #printing variables:
 
@@ -105,9 +111,11 @@ x /= 4
 print(x)
 
 #equals to quotient (floor)
+'''python
 x = 20
 x //= 6
 print(x)
+'''
 
 #equals to value raised to the power
 x= 8
@@ -115,12 +123,13 @@ x **= 3
 print(x)
 
 #equals to remainder
+'''python
 x = 14
 x %= 4
 print(x)
-
+'''
 #output:
-
+'''python
 20
 8
 12
@@ -128,3 +137,4 @@ print(x)
 3
 64
 2
+'''
