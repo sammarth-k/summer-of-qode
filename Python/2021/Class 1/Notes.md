@@ -1,40 +1,40 @@
-#variables and basic data types:
+Variables and basic data types:
 
-#int
+int
 ```python
 a = 5
 ```
-#str
+str
 ```python
 b = 'hello world'
 ```
-#float
+float
 ```python
 c = 2.0
 ```
 
-#printing variables:
+printing variables:
 ```python
 print(a)
 ```
-#5 is printed
+5 is printed
 ```python
 print(b)
 ```
-#hello world is printed
+hello world is printed
 ```python
 print(c)
 ```
-#2.0 is printed
+2.0 is printed
 
 ```python
 x = 'Hello World'
 x = 25
 print(x)
 ```
-#25 is printed
+25 is printed
 
-#adding variables:
+Adding variables:
 ```python
 
 x = 'Hello'
@@ -93,13 +93,13 @@ print (x**y)
 
 
 Operator	==> Operation
-# x += (y) ==> 	x = x + y
-# x-= (y) ==>	x = x - y
-#x*= (y) ==> x = x * y
-# x/= (y) ==>	x = x / y
-# x//= (y) ==>	x= x // y
-# x**= (y)	==> x = x ** y
-# x%= (y)	==> x = x % y
+x += (y) ==> 	x = x + y
+x-= (y) ==>	x = x - y
+x*= (y) ==> x = x * y
+x/= (y) ==>	x = x / y
+x//= (y) ==>	x= x // y
+x**= (y)	==> x = x ** y
+x%= (y)	==> x = x % y
 ```
 Examples
 ```python
