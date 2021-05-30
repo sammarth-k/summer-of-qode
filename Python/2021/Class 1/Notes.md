@@ -1,4 +1,5 @@
-Variables and basic data types:
+# Class 1
+## Variables and basic data types:
 
 int
 ```python
@@ -57,6 +58,8 @@ Output:
 HelloWorld
 15
 ```
+
+## Operators
 Arithmetic operators
 ```python
 
@@ -83,7 +86,6 @@ print (x**y)
 ```
 Output:
 ```python
-
 7
 -3
 10
@@ -94,8 +96,6 @@ Output:
 ```
 Assignment operators
 ```python
-
-
 Operator	==> Operation
 x+= (y) ==> 	x = x + y
 x-= (y) ==>	x = x - y
@@ -107,7 +107,6 @@ x%= (y)	==> x = x % y
 ```
 Examples
 ```python
-
 #equal to
 x = 2
 
@@ -157,4 +156,3 @@ Output:
 64
 2
 ```
-
