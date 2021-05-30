@@ -1,4 +1,26 @@
 # Class 1
+
+## Introduction to Python
+- Creator: Guido Van Rossum
+- Beginner-friendly language
+- Wide variety of applications: Game Development, Data Science, AI, etc.
+- Unique syntax: no curly braces or semicolons (many languages have these)
+
+## Downloading Python (Optional)
+You can download Python from the official [Python](https://python.org) website and it is also available in the Windows Store
+
+## Course Materials
+
+### Platform
+For this course, we will be using [Replit](https://replit.com) which will allow you to access all of our code and also code yourself, without having to install anything. To get started you will need to make a free account.
+
+### Code Repository
+All of the code, notes and assignments of this course will be hosted in this repository. We advise you to make a GitHub account and **fork** our repository, which essentially means create a copy of it in your own profile. This will allow you to upload your code to your own copy and have it for future reference, with all of our notes and assignments.You can also create a **pull request** if you want to merge with the original repository, and we will have to approve your request.
+
+While GitHub is not the primary focus of this course, we advise you to become familiar with its interface since you will be using i very often if you choose to pursue Python further.
+
+<hr>
+
 ## Variables and basic data types:
 
 int
@@ -58,19 +80,19 @@ Output:
 HelloWorld
 15
 ```
+<hr>
 
 ## Operators
 Arithmetic operators
-```python
-
-+	Addition
--	Subtraction
-*	Multiplication
-/	Division
-%	Remainder
-//	Floor Division: rounds down to nearest integer
-**	Exponent
-```
+|Operator|Operation|
+|--------|---------|
+|+	| Addition |
+|-	|Subtraction|
+|*	|Multiplication|
+|/	|Division|
+|%	|Remainder|
+|//	|Floor Division: rounds down to nearest integer|
+|**	|Exponent|
 Examples
 ```python
 
