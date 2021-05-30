@@ -238,3 +238,48 @@ print(x)
 64
 2
 ```
+### Identity operators
+
+Identity operators are used to check whether two objects are identical. True is returned if they are, false otherwise. 
+
+There are two identity operators: is and is not. It's pretty self-explanatory what these two do. is checks whether two objects are identitcal while is not checks whether two objects are not the same.
+
+#### Example
+
+```python
+x = 6
+y = 5
+print(x is not y)
+y = 6
+print(x is y)
+```
+
+##### Output:
+
+```python
+True
+True  
+```
+
+### Membership operators:
+
+Identity operators are used to check whether a given varioable in present in a collection of data. If present, true is returned and false otherwise. 
+
+There are two membership operators: in and not in. in checks whether the variable is present in the dataset and not in checks if it is absent from the dataset. 
+
+You will understand this better when we do lists and tuples. 
+
+#### Example:
+
+```python
+y= [1,2,3,4] #this is a list
+x= 3
+z= 6
+print (x in y)
+print (z in y)
+```
+##### Output:
+```python
+True
+False
+```
