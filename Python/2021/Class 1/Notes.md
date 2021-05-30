@@ -1,6 +1,6 @@
 ```
-```
 
+```
 
 # Class 1
 
@@ -46,9 +46,9 @@ For example in the expression ``x = 5``, x is the variable **identifier** while 
 
 1. Cannot begin with a digit. Eg:``1var`` is not allowed
 2. Cannot use a**keyword** as an identifier. There are 33 keywords in Python, but here are the ones relevant right now:
-   * | **and** | or   | not   | is  | in       | None  | True   | False  | return | if |
-     | ------------- | ---- | ----- | --- | -------- | ----- | ------ | ------ | ------ | -- |
-     | else          | elif | while | for | continue | break | global | import | class  | as |
+   * | and  | or   | not   | is  | in       | None  | True   | False  | return | if |
+     | ---- | ---- | ----- | --- | -------- | ----- | ------ | ------ | ------ | -- |
+     | else | elif | while | for | continue | break | global | import | class  | as |
 
      You will see these appear thorughout the course, and will soon have them on your fingertios
 3. Special Symbols are not allowed, eg``! @ # \$ % ^ & *``
