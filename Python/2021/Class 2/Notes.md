@@ -14,7 +14,7 @@ y = False
 ```
 
 ##Logical operators
-Logical operators are used the way logic gates are used. In Pyton, we have tree logical operators: not,or,and
+Logical operators are used the way logic gates are used. In Python, we have three logical operators: not,or,and
 
 ###not
 not returns the opposite Boolean value of a statement. For example, not True would return False.
