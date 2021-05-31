@@ -22,7 +22,7 @@ not returns the opposite Boolean value of a statement. For example, not True wou
 ### or
 or returns True when one or more conditions are True. Therefore, the statement 3 > 2 or 2 < 4 returns True because 3 > 2 is True.
 
-## # nd
+### and
 and returns True when both conditions are True. Therefore 3 < 4 and 1==1 returns True while 3 < 4 and 1 !=1 returns False
 
 #### Examples
