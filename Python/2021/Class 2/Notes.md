@@ -105,11 +105,12 @@ elif x <= 15: #second condition- if the first condition isnt true then it checks
 ```
 
 ##### Output
+```python
 x is less than or equal to 15
-
+```
 You can also use the logical operators and and or to create more than one condition since these operators return boolean values.
 
-#### Example
+#### Example 2
 ```python
 x = 39
 if x < 10 and x >= 0: #ignore negative values for now
