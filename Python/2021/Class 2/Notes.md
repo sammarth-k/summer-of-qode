@@ -91,6 +91,22 @@ if y == True:
 success
 ```
 
+
+### elif
+You can use another conditional statement called elif which basically gives a an alternative set of conditions. If the input doesn't meet the previous requirements, you can use as many elif statements as you want to create alternative conditions.
+
+#### Example 1
+```python
+x = 15
+if x > 15:
+  print('x is greater than 15')
+elif x <= 15: #second condition- if the first condition isnt true then it checks whether this condition has been met.
+  print('x is less than or equal to 15')
+```
+
+##### Output
+x is less than or equal to 15
+
 You can also use the logical operators and and or to create more than one condition since these operators return boolean values.
 
 #### Example
@@ -105,21 +121,7 @@ elif (x >= 10 and x < 100):    #you can break this line down to 'else, if x is g
 ##### Output
 ```Python
 number has two digits
- ```
-### elif
-You can use another conditional statement called elif which basically gives a an alternative set of conditions. If the input doesn't meet the previous requirements, you can use as many elif statements as you want to create alternative conditions.
-
-#### Example
-```python
-x = 15
-if x > 15:
-  print('x is greater than 15')
-elif x <= 15: #second condition- if the first condition isnt true then it checks whether this condition has been met.
-  print('x is less than or equal to 15')
 ```
-
-##### Output
-x is less than or equal to 15
 
 ### else
 The else statement is used to give the program a case in which none of the conditions have been met.
