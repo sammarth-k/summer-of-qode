@@ -14,8 +14,8 @@ If you want to create a copy of the resources here to play around with, click th
 
 #### Introduction to Python
 
-1. Avi Bhattacharya @avi22bhattacharya
-2. Sammarth Kumar @sammartk-k
+1. Avi Bhattacharya [@avi22bhattacharya](https://github.com/sammarth-k)
+2. Sammarth Kumar [@sammartk-k](https://github.com/sammarth-k)
 
 You can follow all of us to see what we are doing! Don't forget to ``star`` the repo to let us know you liked it!
 
