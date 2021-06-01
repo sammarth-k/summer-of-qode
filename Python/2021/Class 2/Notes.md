@@ -1,7 +1,3 @@
-```
-
-```
-
 # Class 2 - Conditionals
 
 ##### What You Will Learn
