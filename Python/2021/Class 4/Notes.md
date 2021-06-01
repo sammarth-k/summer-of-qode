@@ -8,6 +8,6 @@ What You Will Learn
 
 ## 1.Lists
 In python, lists are an ordered data structure that can store multiple values in it
-They are <b>ordered</b> and <b>mutable</b>
-Ordered: Each item in a list has a given position(called its index)
-Mutable: The data in the list can be changed anytime in the program
+<br>They are <b>ordered</b> and <b>mutable</b>
+<br>Ordered: Each item in a list has a given position(called its index)
+<br>Mutable: The data in the list can be changed anytime in the program
