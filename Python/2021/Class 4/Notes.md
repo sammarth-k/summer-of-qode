@@ -50,7 +50,7 @@ print(fruits)
 ```
 
 ### Useful List methods and function
-<b>NOTE</b>For all examples below, my_list=['apple','banana','orange','mango','lychee']
+<b>NOTE:</b>For all examples below, my_list=['apple','banana','orange','mango','lychee']
 <table>
   <tr>
     <th>Function/method
