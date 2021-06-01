@@ -49,17 +49,15 @@ print(fruits)
 ['apple','banana','kiwi','mango','lychee']
 ```
 
-### Deleting items from a list
-There are 2 ways to delete items from a list:
--The remove() method
-<br>This will remove a specified element from the list. You have to pass the name of the element as a parameter
-<br>For example
-```python
-fruits = ['apple','banana','orange','mango','lychee']
-fruits.remove('mango') #finds an element 'mango' and removes it from the list
-print(fruits)
-```
-<b>Output:</b>
-```python
-['apple','banana','orange','lychee']
-```
+### Useful List methods and functions
+| Function/method | Example                                        | Output                  |
+| ----------------| ---------------------------------------------- | ----------------------- |
+| +               | Addition                                       |                         |
+| -               | Subtraction                                    |                         |
+| *               | Multiplication                                 |                         |
+| /               | Division                                       |                         |
+| %               | Remainder                                      |                         |
+| //              | Floor Division: rounds down to nearest integer |                         |
+| **              | Exponent                                       |                         |
+|                 |                                                |                         | 
+
