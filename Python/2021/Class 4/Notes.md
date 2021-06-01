@@ -52,7 +52,11 @@ print(fruits)
 ### Useful List methods and function
 <table>
   <tr>
-    <td>Hi
-    <td>ok
+    <th>Function/method
+    <th>Explanation and example
+    <th>Final list
   </tr>
+  <tr>
+    <td>l.append(<i>item</i>)
+ 
 </table>
