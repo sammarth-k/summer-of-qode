@@ -16,10 +16,21 @@ numbers = [5,3,2,1,4] #This stores int values
 names = ['sammarth','avi'] #This stores str values
 ```
 ### List indexing
-Lists are ordered, ie Each position has a fixed value, called its index
+Lists are ordered, ie. each position has a fixed value, called its <b>index</b>
 <br>The indexing works in the following manner and <b>positive indexing begins from 0</b>
 ```python
            0        1       2        3         4      #positive indexing
-items = ['apple','banana','orange','mango','lychee']
+fruits = ['apple','banana','orange','mango','lychee']
           -5      -4        -3       -2        -1     #negative indexing
 ``` 
+To extract an item from the list using its index, we will do it in the following manner:
+```python
+print(fruits[1])  #index position 1  
+print(fruits[-3]) #index position -3
+```
+Output:
+```
+banana
+orange 
+```
+Refer to index chart above to see how elements got printed
