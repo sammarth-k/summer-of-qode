@@ -1,9 +1,11 @@
-```
+# Class 1: Introduction to Python
 
-```
+#### What You Will Learn
 
-# Class 1
-
+1. What is Python?
+2. Python Syntax
+3. Data Types in Python
+4. Operators in Python
 ## Introduction to Python
 
 - Creator: Guido Van Rossum
