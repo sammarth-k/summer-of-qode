@@ -67,4 +67,9 @@ print(fruits)
     <td>Removes item from the list by name<br><u>For eg:</u>python my_list.remove('mango')
     <td>['apple','banana','orange','lychee']
   </tr>
+  <tr>
+    <td>my_list.pop(<i>item_index</i>)
+    <td>Removes item from the list by index<br><u>For eg:</u>python my_list.pop(2)
+    <td>['apple','banana','mango','lychee']
+  </tr>
 </table>
