@@ -6,4 +6,8 @@ What You Will Learn
   <li>The random module
 </ol>
 
-## Lists
+## 1.Lists
+In python, lists are an ordered data structure that can store multiple values in it
+They are <b>ordered</b> and <b>mutable</b>
+Ordered: Each item in a list has a given position(called its index)
+Mutable: The data in the list can be changed anytime in the program
