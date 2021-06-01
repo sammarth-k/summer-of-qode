@@ -16,7 +16,6 @@ In python, a list is a type of data structure that can store multiple values in 
 numbers = [5,3,2,1,4] #This stores int values
 names = ['Sammarth','Avi'] #This stores str values
 ```
-<br>
 ### List indexing
 Lists are ordered, ie. each position has a fixed value, called its <b>index</b>
 <br>The indexing works in the following manner and <b>positive indexing begins from 0</b>
@@ -36,7 +35,7 @@ banana
 orange 
 ```
 Refer to index chart above to see how which elements got printed
-<br>
+
 ### Changing items in the list
 Lists are mutable ie. you can change its contents at any time in the program
 <br>To do so, we have to use the following syntax:
@@ -49,7 +48,7 @@ print(fruits)
 ```
 ['apple','banana','kiwi','mango','lychee']
 ```
-<br>
+
 ### Deleting items from a list
 There are 2 ways to delete items from a list:
 <ul>
