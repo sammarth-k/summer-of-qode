@@ -18,7 +18,7 @@ while x < 3:
 
 ##### Output
 
-```python
+```
 0
 Hi
 1
@@ -45,7 +45,7 @@ while x < 3:
 
 ##### Output
 
-```python
+```
 0
 ```
 
@@ -61,7 +61,7 @@ while x < 3:
 
 ##### Output
 
-```python
+```
 0
 Hi
 1
@@ -93,3 +93,133 @@ In the example above you see the usage of ``continue``. You may also notice that
 We see that ``x`` starts at ``0`` and immedietly becomes ``1``, but ``x`` and ``'Hi'`` aren't printed, that is because the code reaches the ``continue`` statement and that resets the loop, taking it to the top, where ``x`` is incremented again. Now if the increment statement was below the ``continue``, it would keep resetting the loop when the value of ``x`` became ``1`` and the loop would never end. 
 
 ### Infinite Loop
+
+An infinite loop is a loop that never breaks, or never stops. Remember to watch out for these, since they occur when you forget to add a mechanism to stop the loop. However, if you want to make one, there are several ways you can do that. 
+
+```python
+x = 0
+while x < 1:
+  print('Hi')
+ ```
+ 
+ #### Output
+ 
+ 
+ When you run it, the program will indefinitely print 'Hi' untill it is forcefully stopped through keyboard interrupt (ctrl + c) or using some other method.
+ 
+ ```python
+ while True:
+  print('Hi')
+ ```
+ 
+ ```python 
+ while 1:
+  print('Hi')
+ ```
+ 
+ All of these programs output the same thing, since the condition in the while system always stays True and never changes. 
+ 
+You can use the break statement in conjunction with an infinite loop to create a unique type of loop that checks a condition at the end of the loop, compared to at the beginning like in a while loop
+ 
+ ```python
+ while 1:
+  num = input("Enter the number 2")
+  if num == '2':
+    print('Very good')
+    break 
+  else:
+    print('Try again')
+ ```
+ 
+ #### Output
+ 
+ ``` 
+ Enter the number 2
+ INPUT - 3
+ Try again
+ INPUT - 2
+ Very good
+ ```
+ 
+The loop keeps running until you satisfy the condition at the end of loop by entering the correct number.
+ 
+### For Loop
+ 
+A for loop in python is one that loops through certain values. Unlike the while loop which runs as long as the condition is True, the for loop only runs a given number of times.
+A for loop as a variable known as the counter variable, which can be used in the loop and doesn't require incrementing. The syntax is as follows
+
+```python
+
+for i in 'hello':
+  print(i)
+ ```
+ 
+#### Output
+
+```
+h
+e
+l
+l
+o
+```
+
+As the loop goes through the string, the value of i will be each element of the string, which we can use like a variable in the loop. 
+
+We can use numbers in the loop as well, using the range() function.
+
+```python
+for i in range(4):
+  print(i)
+```
+
+#### Output
+
+```
+0
+1
+2
+3
+```
+
+The values of i in this case will be the numbers starting from 0 and till 3. The number put in the range function isn't included. The loop will however run 4 times only, which is the number in the range function. 
+
+You can enter a number to begin with instead of 0 as well. 
+```python 
+for i in range(2,4):
+  print(i)
+```
+
+#### Output
+ 
+```
+2
+3
+```
+
+The first number is included. 
+
+You can also enter a third parameter to change the increment value, known as step in this case
+
+```python
+for i in range(0,10,2):
+  print(i)
+```
+
+#### Output
+
+```
+0
+2
+4
+6
+8
+10
+```
+
+The step value is the increment here, and the value of i increase by that value every time. Negative values make the loop go reverse. 
+
+
+
+ 
+ 
