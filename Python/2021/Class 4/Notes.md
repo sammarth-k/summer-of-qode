@@ -13,5 +13,11 @@ In python, a list is an ordered data structure that can store multiple values in
 <br>We represent lists using square brackets in python []
 <br>To define lists, we use this syntax
 ```python
-my_list=[<i>list contents seperated by commas</i>]
+my_list=[item_1,item_2,item_3,...,item_n]
+```
+Note here that the elements can be any datatype
+For example:
+```python
+numbers=[5,3,2,1,4] #This stores int values
+names=['sammarth','avi'] #This stores str values
 ```
