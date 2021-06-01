@@ -50,6 +50,7 @@ print(fruits)
 ```
 
 ### Useful List methods and function
+<b>NOTE</b>For all examples below, my_list=['apple','banana','prange','mango','lychee']
 <table>
   <tr>
     <th>Function/method
@@ -57,6 +58,8 @@ print(fruits)
     <th>Final list
   </tr>
   <tr>
-    <td>l.append(<i>item</i>)
+    <td>my_list.append(<i>item</i>)
+    <td>Adds item at the end of list<br>Eg: my_list.append('kiwi')
+    <td>['apple','banana','prange','mango','lychee','kiwi']
  
 </table>
