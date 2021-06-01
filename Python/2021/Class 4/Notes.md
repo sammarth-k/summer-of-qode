@@ -51,16 +51,15 @@ print(fruits)
 
 ### Deleting items from a list
 There are 2 ways to delete items from a list:
-<ul>
-  <li>The remove() method
-      <br>This will remove a specified element from the list. You have to pass the name of the element as a parameter
-      <br>For example
-      ```python
-      fruits = ['apple','banana','orange','mango','lychee']
-      fruits.remove('mango') #finds an element 'mango' and removes it from the list
-      print(fruits)
-      ```
-      <b>Output:</b>
-      ```python
-       ['apple','banana','orange','lychee']
-      ```
+-The remove() method
+<br>This will remove a specified element from the list. You have to pass the name of the element as a parameter
+<br>For example
+```python
+fruits = ['apple','banana','orange','mango','lychee']
+fruits.remove('mango') #finds an element 'mango' and removes it from the list
+print(fruits)
+```
+<b>Output:</b>
+```python
+['apple','banana','orange','lychee']
+```
