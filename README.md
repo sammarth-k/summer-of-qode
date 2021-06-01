@@ -2,6 +2,8 @@
 
 This repository contains all the code and materials distributed in the Q-Programming Summer of Qode.
 
+If you want to create a copy of the resources here to play around with, click the ``fork`` button
+
 ### Instructors
 
 #### Introduction to Programming with Scratch
@@ -14,6 +16,8 @@ This repository contains all the code and materials distributed in the Q-Program
 
 1. Avi Bhattacharya @avi22bhattacharya
 2. Sammarth Kumar @sammartk-k
+
+You can follow all of us to see what we are doing! Don't forget to ``star`` the repo to let us know you liked it!
 
 If you want more resources from Q-Programming, you can check us out on the following platforms:
 
