@@ -59,7 +59,12 @@ print(fruits)
   </tr>
   <tr>
     <td>my_list.append(<i>item</i>)
-    <td>Adds item at the end of list<br>```python my_list.append('kiwi')```
+    <td>Adds item at the end of list<br><u>For eg:</u>python my_list.append('kiwi')
     <td>['apple','banana','prange','mango','lychee','kiwi']
- 
+  </tr>
+  <tr>
+    <td>my_list.remove(<i>item_name</i>)
+    <td>Removes item from the list by name<br><u>For eg:</u>python my_list.remove('mango')
+    <td>['apple','banana','prange','lychee']
+  </tr>
 </table>
