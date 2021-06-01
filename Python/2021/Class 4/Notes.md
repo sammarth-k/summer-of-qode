@@ -13,15 +13,15 @@ In python, a list is a type of data structure that can store multiple values in 
 <br>To define lists, we use this syntax
 ```python
 numbers = [5,3,2,1,4] #This stores int values
-names = ['sammarth','avi'] #This stores str values
+names = ['Sammarth','Avi'] #This stores str values
 ```
 ### List indexing
 Lists are ordered, ie. each position has a fixed value, called its <b>index</b>
 <br>The indexing works in the following manner and <b>positive indexing begins from 0</b>
 ```python
-           0        1       2        3         4      #positive indexing
+            0        1       2        3         4      #positive indexing
 fruits = ['apple','banana','orange','mango','lychee']
-          -5      -4        -3       -2        -1     #negative indexing
+            -5      -4       -3       -2       -1      #negative indexing
 ``` 
 To extract an item from the list using its index, we will do it in the following manner:
 ```python
@@ -33,4 +33,4 @@ Output:
 banana
 orange 
 ```
-Refer to index chart above to see how elements got printed
+Refer to index chart above to see how which elements got printed
