@@ -15,7 +15,7 @@ In python, a list is a type of data structure that can store multiple values in 
 numbers = [5,3,2,1,4] #This stores int values
 names = ['sammarth','avi'] #This stores str values
 ```
-###List indexing
+### List indexing
 Lists are ordered, ie Each position has a fixed value, called its index
 <br>The indexing works in the following manner and <b>positive indexing begins from 0</b>
 ```python
