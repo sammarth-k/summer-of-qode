@@ -49,15 +49,10 @@ print(fruits)
 ['apple','banana','kiwi','mango','lychee']
 ```
 
-### Useful List methods and functions
-| Function/method | Example                                        | Output                  |
-| ----------------| ---------------------------------------------- | ----------------------- |
-| +               | Addition                                       |                         |
-| -               | Subtraction                                    |                         |
-| *               | Multiplication                                 |                         |
-| /               | Division                                       |                         |
-| %               | Remainder                                      |                         |
-| //              | Floor Division: rounds down to nearest integer |                         |
-| **              | Exponent                                       |                         |
-|                 |                                                |                         | 
-
+### Useful List methods and function
+<table>
+  <tr>
+    <td>Hi
+    <td>ok
+  </tr>
+</table>
