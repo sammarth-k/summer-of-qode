@@ -59,7 +59,9 @@ print(fruits)
   </tr>
   <tr>
     <td>my_list.append(<i>item</i>)
-    <td>Adds item at the end of list<br>Eg: my_list.append('kiwi')
+    <td>Adds item at the end of list
+      <br>```python
+          my_list.append('kiwi')```
     <td>['apple','banana','prange','mango','lychee','kiwi']
  
 </table>
