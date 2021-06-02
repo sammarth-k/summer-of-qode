@@ -96,7 +96,7 @@ But do keep in mind that by default python takes input as a string, and not any 
 So if you want to input a numeric value, you will have to do the following:
 ```python
 age = int(input("Enter age:"))
-print(100-age,"years till you turn 100")
+print(100-age , "years till you turn 100")
 ```
 <b>Output</b>
 ```
