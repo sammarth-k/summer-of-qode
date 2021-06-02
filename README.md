@@ -1,25 +1,30 @@
 # Q-Programming Summer of Qode
+
 <a herf="https://python.org" target="_blank"><img src="https://img.shields.io/badge/Made%20with-Python-306998.svg"></a>
 ![](https://img.shields.io/github/license/sammarth-k/summer-of-qode) ![](	https://img.shields.io/github/forks/sammarth-k/summer-of-qode) ![](https://img.shields.io/github/last-commit/sammarth-k/summer-of-qode)
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sammarth-k&repo=summer-of-qode&theme=dark)
-<br>
+
 This repository contains all the code and materials distributed in the Q-Programming Summer of Qode.
 
 If you want to create a copy of the resources here to play around with, click the ``fork`` button
+
+## The Task
+
+We were given the challenge to teach middle schoolers the fundamentals of Python in just 5 one-hour sessions. Luckily, we had experience, so we were able to cover a lot of things a beginner would want to learn in Python from creating their first program, to making mini-games on their own. We have created this course to be as interactive as possible with interesting assignments and cool mini-projects for students to make. We hope this repository is useful to not just the kids we taught, but to anyone on the internet who may be interested in getting started with Python! You can contact us if you want any more details: [E-mail]()
 
 ### Instructors
 
 #### Introduction to Programming with Scratch
 
-1. Arjun Singh Sodhi [@asterbot](https://github.com/asterbot)
-2. Balpreet Singh Juneja [@Pyrotex2](https://github.com/Pyrotex2)
-3. Dhruv Rawal [@dhruv-python](https://github.com/dhruv-python)
+1. Arjun Singh Sodhi[@asterbot](https://github.com/asterbot)
+2. Balpreet Singh Juneja[@Pyrotex2](https://github.com/Pyrotex2)
+3. Dhruv Rawal[@dhruv-python](https://github.com/dhruv-python)
 
 #### Introduction to Python
 
-1. Avi Bhattacharya [@avi22bhattacharya](https://github.com/sammarth-k)
-2. Sammarth Kumar [@sammartk-k](https://github.com/sammarth-k)
+1. Avi Bhattacharya[@avi22bhattacharya](https://github.com/sammarth-k)
+2. Sammarth Kumar[@sammartk-k](https://github.com/sammarth-k)
 
 You can follow all of us to see what we are doing! Don't forget to ``star`` the repo to let us know you liked it!
 
