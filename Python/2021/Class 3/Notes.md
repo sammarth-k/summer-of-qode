@@ -27,7 +27,7 @@ Hi
 Hi
 ```
 
-Let's look at that line by line. The first line we make a variable x and give it the value 0. This is called intialising a variable, and is important because when the loop begins, it will check the value of x, and the program will return an error if x doesn't have a value. Next we have the loop statement itself with the condition, and it runs because the conditions is true. Each time the loop runs, the value of x increases by one, and when it becomes 2, the loop stops as the condition becomes false. In this situation, x is called the counter variable, and we are incrementing it by 1.
+Let's look at that line by line. The first line we make a variable x and give it the value 0. This is called intialising a variable, and is important because when the loop begins, it will check the value of x, and the program will return an error if x doesn't have a value. Next we have the loop statement itself with the condition, and it runs because the conditions is true. Each time the loop runs, the value of x increases by one, and when it becomes 3, the loop stops as the condition becomes false. In this situation, x is called the counter variable, and we are incrementing it by 1.
 
 ### Break and Continue
 
