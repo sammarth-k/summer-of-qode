@@ -7,38 +7,46 @@ What You Will Learn
   <li>The random module
 </ol>
 
-## 1.Lists
-In python, a list is a type of data structure that can store multiple values in it
-<br>We represent lists using square brackets in python [ ]
-<br>Note here that the elements can be any datatype
-<br>To define lists, we use this syntax
+## Lists
+In python, a ```list``` is a type of data structure that can store multiple values in it
+
+We represent lists using square brackets in python [ ]
+
+Note here that the elements can be any datatype
+
+To define lists, we use this syntax
 ```python
-numbers = [5,3,2,1,4] #This stores int values
-names = ['Sammarth','Avi'] #This stores str values
+numbers = [5,3,2,1,4] # This stores int values
+names = ['Sammarth','Avi'] # This stores str values
 ```
 ### List indexing
-Lists are ordered, ie. each position has a fixed value, called its <b>index</b>
+Lists are ordered, ie. each position has a fixed value, called its **index** Indices are basically used to locate an element in a list.<br>
 <br>The indexing works in the following manner and <b>positive indexing begins from 0</b>
 ```python
-            0        1       2        3         4      #positive indexing
+            0        1       2        3         4      # positive indexing
 fruits = ['apple','banana','orange','mango','lychee']
-            -5      -4       -3       -2       -1      #negative indexing
+            -5      -4       -3       -2       -1      # negative indexing
 ``` 
+
+You will notice that the positive indices start from 0. Keep this in mind when you use indices to extract values.
+
+Positive indices allow you to extract values starting from the left hand side, while negative indices allow you to do so from the right hand side.
+
 To extract an item from the list using its index, we will do it in the following manner:
 ```python
-print(fruits[1])  #index position 1  
-print(fruits[-3]) #index position -3
+print(fruits[1])  # prints element at index position 1  (2nd from left)
+print(fruits[-3]) # prints element at index position -3 (3rd from right)
 ```
 <b>Output</b>
 ```
 banana
 orange 
 ```
-Refer to index chart above to see how which elements got printed
 
 ### Changing items in the list
-Lists are mutable ie. you can change its contents at any time in the program
-<br>To do so, we have to use the following syntax:
+Lists are mutable ie. you can change its contents at any time in the program, without having to create a new list.
+
+To do so, we have to use the following syntax:
 ```python
 fruits = ['apple','banana','orange','mango','lychee']
 fruits[2]='kiwi' #we are changing the value at index 2(orange) to 'kiwi'
@@ -50,7 +58,7 @@ print(fruits)
 ```
 
 ### Useful List methods and function
-<b>NOTE:</b>For all examples below, my_list=['apple','banana','orange','mango','lychee']
+**NOTE:** For all examples below, ```my_list = ['apple','banana','orange','mango','lychee']```
 <table>
   <tr>
     <th>Function/method
