@@ -1,15 +1,15 @@
-# Class 2 - Conditionals
+# Class 2: Conditionals
 
-##### What You Will Learn
+#### What You Will Learn
 
-1. if, else, elif
-2. boolean data
-3. logical operators
-4. single line conditionals
+1. ``if``,``else``,``elif``
+2. Boolean Data Type
+3. Logical Operators
+4. Single Line Conditionals
 
 ## Boolean data type
 
-A variable of data type boolean can either be True or False (remember to capitalise the T/F).
+A variable of data type boolean can either be ``True`` or ``False`` (remember to capitalise the T/F).
 
 ```python
 x = True
@@ -22,15 +22,15 @@ Logical operators are used the way logic gates are used (if you do not know what
 
 ### not
 
-not returns the opposite Boolean value of a statement. For example, not True would return False.
+``not`` returns the opposite Boolean value of a statement. For example, ``not True`` would return ``False``.
 
 ### or
 
-or returns True when one or more conditions are True. Therefore, the statement 3 > 2 or 2 < 4 returns True because 3 > 2 is True.
+``or`` returns ``True`` when one or more conditions are ``True``. Therefore, the statement ``3 > 2 or 2 < 4`` returns ``True`` because 3 > 2 is True.
 
 ### and
 
-and returns True when both conditions are True. Therefore 3 < 4 and 1==1 returns True while 3 < 4 and 1 !=1 returns False
+``and`` returns ``True`` when both conditions evaluate to  ``True``. Therefore ``3 < 4 and 1==1`` returns ``True`` while ``3 < 4 and 1 != 1``returns ``False``.
 
 #### Examples
 
@@ -153,9 +153,9 @@ the number has two digits
 
 ### ``else``
 
-The else statement is used to give the program a case in which none of the conditions have been met.
+The ``else`` statement is used to give the program a case in which none of the conditions have been met.
 
-It must succeed if and elif statements because the input has to fail the required conditions (i.e. the previous conditions return False) before following the code in the 'else' subsection.
+It must succeed if and elif statements because the input has to fail the required conditions (i.e. the previous conditions return False) before following the code in the ``else`` statement.
 
 #### Example 1
 

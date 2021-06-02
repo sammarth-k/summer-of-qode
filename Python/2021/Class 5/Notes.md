@@ -1,5 +1,12 @@
 # Class 5: Functions
 
+#### What You Will Learn
+1. Concept of Functions
+2. Types of Functions
+3. Creating Your Own Functions
+4. Local and Global Variables
+5. Flow of Control
+
 ## What are functions
 They are blocks of code which runs only when called. They are used to make code more efficient, instead of writing the same twice, you can write the function one time and use it as many times as needed.
 

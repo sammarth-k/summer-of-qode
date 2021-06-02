@@ -4,8 +4,10 @@
 
 1. What is Python?
 2. Python Syntax
-3. Data Types in Python
-4. Operators in Python
+3. Input and Output
+4. Data Types in Python
+5. Operators in Python
+
 ## Introduction to Python
 
 - Creator: Guido Van Rossum
@@ -31,7 +33,47 @@ While GitHub is not the primary focus of this course, we advise you to become fa
 
 ---
 
-# Variables and basic data types:
+## Input - Output
+
+### Output
+
+To display something in the output window, we use the ``print()`` function.
+
+#### Example
+
+```python
+print("Hello World!")
+```
+
+##### Output
+
+```python
+Hello World!
+```
+
+If we want to print multiple strings, we can separate them by commas:
+
+#### Example
+
+```python
+print("Hello, my name is", "Sammarth")
+```
+
+##### Output
+
+```
+Hello, my name is Sammarth
+```
+
+Items separated by commas are by default separated by a whitespace in the output. You can change this to any character of your choice using the ``sep`` keyword (stands for separate).
+
+#### Example
+
+```python
+print("Hello", "World", sep="*")
+```
+
+## Variables and basic data types:
 
 A variable is something that stores data within it, and can be used later by simply using the name it has been given.
 
@@ -148,7 +190,6 @@ HelloWorld
 | %        | Remainder                                      |
 | //       | Floor Division: rounds down to nearest integer |
 | **       | Exponent                                       |
-|          |                                                |
 
 #### Examples
 
@@ -240,9 +281,10 @@ print(x)
 64
 2
 ```
+
 ### Identity operators
 
-Identity operators are used to check whether two objects are identical. True is returned if they are, false otherwise. 
+Identity operators are used to check whether two objects are identical. True is returned if they are, false otherwise.
 
 There are two identity operators: is and is not. It's pretty self-explanatory what these two do. is checks whether two objects are identitcal while is not checks whether two objects are not the same.
 
@@ -265,11 +307,11 @@ True
 
 ### Membership operators:
 
-Identity operators are used to check whether a given varioable in present in a collection of data. If present, true is returned and false otherwise. 
+Identity operators are used to check whether a given varioable in present in a collection of data. If present, true is returned and false otherwise.
 
-There are two membership operators: in and not in. in checks whether the variable is present in the dataset and not in checks if it is absent from the dataset. 
+There are two membership operators: in and not in. in checks whether the variable is present in the dataset and not in checks if it is absent from the dataset.
 
-You will understand this better when we do lists and tuples. 
+You will understand this better when we do lists and tuples.
 
 #### Example:
 
@@ -280,7 +322,9 @@ z= 6
 print (x in y)
 print (z in y)
 ```
+
 ##### Output:
+
 ```python
 True
 False
