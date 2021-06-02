@@ -90,7 +90,7 @@ Hi
 
 In the example above you see the usage of ``continue``. You may also notice that increment statement is near the top of the loop. While this is not convention, in this case if we had put it near the bottom, it would have led to an infinite loop due to the nature of the ``continue`` statement. We will explain that in a bit. 
 
-We see that ``x`` starts at ``0`` and immedietly becomes ``1``, but ``x`` and ``'Hi'`` aren't printed, that is because the code reaches the ``continue`` statement and that resets the loop, taking it to the top, where ``x`` is incremented again. Now if the increment statement was below the ``continue``, it would keep resetting the loop when the value of ``x`` became ``1`` and the loop would never end. 
+We see that ``x`` starts at ``0`` and immediatly becomes ``1``, but ``x`` and ``'Hi'`` aren't printed, that is because the code reaches the ``continue`` statement and that resets the loop, taking it to the top, where ``x`` is incremented again. Now if the increment statement was below the ``continue``, it would keep resetting the loop when the value of ``x`` became ``1`` and the loop would never end. 
 
 ### Infinite Loop
 
