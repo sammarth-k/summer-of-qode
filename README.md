@@ -3,6 +3,7 @@
 ![](https://img.shields.io/github/license/sammarth-k/summer-of-qode) ![](	https://img.shields.io/github/forks/sammarth-k/summer-of-qode) ![](https://img.shields.io/github/last-commit/sammarth-k/summer-of-qode)
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sammarth-k&repo=summer-of-qode&theme=dark)
+<br>
 This repository contains all the code and materials distributed in the Q-Programming Summer of Qode.
 
 If you want to create a copy of the resources here to play around with, click the ``fork`` button
@@ -13,7 +14,7 @@ If you want to create a copy of the resources here to play around with, click th
 
 1. Arjun Singh Sodhi [@asterbot](https://github.com/asterbot)
 2. Balpreet Singh Juneja [@Pyrotex2](https://github.com/Pyrotex2)
-]3. Dhruv Rawal [@dhruv-python](https://github.com/dhruv-python)
+3. Dhruv Rawal [@dhruv-python](https://github.com/dhruv-python)
 
 #### Introduction to Python
 
