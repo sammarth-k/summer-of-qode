@@ -33,3 +33,6 @@ If you want more resources from Q-Programming, you can check us out on the follo
 1. [Website](https://qprogramming.net) (more tutorials and other coding related stuff)
 2. [Instagram](https://instagram.com/qprogramming) (daily Python resources and tutorials)
 3. [Youtube](https://www.youtube.com/channel/UCyO2DcOyUucyPDWBsbeqgrw) (for video tutorials)
+
+## How Can I Contribute?
+If you took the course and want to add your code to the repository, you can create a ```pull request```. First, ```fork``` the repo, and in your own copy of the repo, upload all the files for each class in the ```Student Codes``` folder. You will need to create a folder with your name first, however. We recommend that you download the GitHub Desktop App and clone the forked repo and then create a pull request online.
