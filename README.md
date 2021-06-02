@@ -2,7 +2,7 @@
 <a herf="https://python.org" target="_blank"><img src="https://img.shields.io/badge/Made%20with-Python-306998.svg"></a>
 ![](https://img.shields.io/github/license/sammarth-k/summer-of-qode) ![](	https://img.shields.io/github/forks/sammarth-k/summer-of-qode) ![](https://img.shields.io/github/last-commit/sammarth-k/summer-of-qode)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sammarth-k&repo=summer-of-qode)](https://qprogramming.net)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sammarth-k&repo=summer-of-qode&theme=dark)](https://qprogramming.net)
 
 This repository contains all the code and materials distributed in the Q-Programming Summer of Qode.
 
