@@ -11,7 +11,7 @@ If you want to create a copy of the resources here to play around with, click th
 
 ## The Task
 
-We were given the challenge to teach middle schoolers the fundamentals of Python in just 5 one-hour sessions. Luckily, we had experience, so we were able to cover a lot of things a beginner would want to learn in Python from creating their first program, to making mini-games on their own. We have created this course to be as interactive as possible with interesting assignments and cool mini-projects for students to make. We hope this repository is useful to not just the kids we taught, but to anyone on the internet who may be interested in getting started with Python! You can contact us if you want any more details: [E-mail]()
+We were given the challenge to teach middle schoolers the fundamentals of Python in just 5 one-hour sessions. Luckily, we had experience, so we were able to cover a lot of things a beginner would want to learn in Python from creating their first program, to making mini-games on their own. We have created this course to be as interactive as possible with interesting assignments and cool mini-projects for students to make. We hope this repository is useful to not just the kids we taught, but to anyone on the internet who may be interested in getting started with Python! You can contact us if you want any more details: [E-mail](mailto:contact@qprogramming.net)
 
 ### Instructors
 
