@@ -59,22 +59,23 @@ print(fruits)
   </tr>
   <tr>
     <td>my_list.append(<i>item</i>)
-    <td>Adds item at the end of list<br><u>For eg:</u>my_list.append('kiwi'))
+    <td>Adds item at the end of list<br><u>For eg:</u><br>my_list.append('kiwi')<br>print(my_list)
     <td>['apple','banana','orange','mango','lychee','kiwi']
   </tr>
   <tr>
     <td>my_list.remove(<i>item_name</i>)
-    <td>Removes item from the list by name<br><u>For eg:</u>my_list.remove('mango'))
+    <td>Removes item from the list by name<br><u>For eg:</u><br>my_list.remove('mango')<br>print(my_list)
     <td>['apple','banana','orange','lychee']
   </tr>
   <tr>
     <td>my_list.pop(<i>item_index</i>)
-    <td>Removes item from the list by index<br><u>For eg:</u>my_list.pop(2)
+    <td>Removes item from the list by index<br><u>For eg:</u><br>my_list.pop(2)<br>print(my_list)
     <td>['apple','banana','mango','lychee']
   </tr>
   <tr>
     <td>len(my_list)
-    <td>Returns the length of 
+    <td>Returns the length of the list<br><u>For eg:</u><br>print(len(my_list))
+    <td>5
   </tr>
 </table>
 
