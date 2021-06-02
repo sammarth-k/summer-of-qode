@@ -73,6 +73,37 @@ Items separated by commas are by default separated by a whitespace in the output
 print("Hello", "World", sep="*")
 ```
 
+#### Output
+```python
+Hello*World
+```
+
+### Inputting
+To input a value from the user and store it in a variable, we use the ```input()``` command.
+
+We can pass a prompt in the brackets as a string for the user to see. For example
+```python
+input("What is your name:")
+```
+And the user will see the prompt before they can type the input
+
+We can store these values in variables so we can use it later in the program
+```python
+name=input("What is your name:")
+```
+But do keep in mind that by default python takes input as a string, and not any other datatype
+
+So if you want to input a numeric value, you will have to do the following:
+```python
+age=int(input("Enter age:"))
+print(100-age,"years till you turn 100")
+```
+<b>Output</b>
+```python
+Enter age: 15
+85 years till you turn 100
+```
+
 ## Variables and basic data types:
 
 A variable is something that stores data within it, and can be used later by simply using the name it has been given.
