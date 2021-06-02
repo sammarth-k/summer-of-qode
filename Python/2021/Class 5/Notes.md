@@ -1,5 +1,12 @@
 # Class 5: Functions
 
+#### What you will learn
+1. What are functions
+2. The two types of functions
+3. How to declare, write and call user-defined functions
+4. Passing arguments into functions
+5. Global and local variables 
+
 ## What are functions
 They are blocks of code which runs only when called. They are used to make code more efficient, instead of writing the same twice, you can write the function one time and use it as many times as needed.
 
@@ -124,5 +131,8 @@ def f6():
   x = 200
 
 f6()
-print(x) #prints 200 since x is made a global variable and equals to 200 in the function f6. 
+print(x) #prints 200 since x is made a global variable and equals to 200 in the function f6.
 ```
+
+### Flow of control
+While writing code, you must always define/write code for a function before calling it. Calling a function before it has been created would cause an error.
