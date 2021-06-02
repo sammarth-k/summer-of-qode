@@ -39,13 +39,13 @@ Refer to index chart above to see how which elements got printed
 ### Changing items in the list
 Lists are mutable ie. you can change its contents at any time in the program
 <br>To do so, we have to use the following syntax:
-```
+```python
 fruits = ['apple','banana','orange','mango','lychee']
 fruits[2]='kiwi' #we are changing the value at index 2(orange) to 'kiwi'
 print(fruits)
 ```
 <b>Output</b>
-```
+```python
 ['apple','banana','kiwi','mango','lychee']
 ```
 
