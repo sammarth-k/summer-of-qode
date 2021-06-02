@@ -25,6 +25,9 @@ In Python a function is created using the def keyword:
 def func1(): #user-defined function
   print ('Hello!')
 ```
+
+The naming rules and conventions are the same as those for variables (which we covered in class 1).
+
 ### Calling functions
 To call a function, use the function name followed by parenthesis:
 ```python
