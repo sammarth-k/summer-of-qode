@@ -94,6 +94,11 @@ print(fruits)
     <td>Returns the length of the list<br><u>For eg:</u><br>print(len(my_list))
     <td>5
   </tr>
+  <tr>
+    <td>my_list.reverse()
+    <td>Reverses the list<br><u>For eg:</u><br>my_list.reverse()<br>print(my_list)
+    <td>['lychee','mango','orange','banana','apple']
+  </tr>
 </table>
 
 ## The ``random`` Module

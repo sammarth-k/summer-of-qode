@@ -1,5 +1,4 @@
 # Class 5: Functions
-
 #### What You Will Learn
 1. Concept of Functions
 2. Types of Functions
@@ -131,5 +130,8 @@ def f6():
   x = 200
 
 f6()
-print(x) #prints 200 since x is made a global variable and equals to 200 in the function f6. 
+print(x) #prints 200 since x is made a global variable and equals to 200 in the function f6.
 ```
+
+### Flow of control
+While writing code, you must always define/write code for a function before calling it. Calling a function before it has been created would cause an error.
