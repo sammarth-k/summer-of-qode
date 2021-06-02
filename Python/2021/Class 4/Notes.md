@@ -73,3 +73,100 @@ print(fruits)
     <td>['apple','banana','mango','lychee']
   </tr>
 </table>
+
+## The ```random``` Module
+What is the random modulle? It's basically a set of functions that allow you to generate random numbers and collections of random numbers. In this course we will be looking at the basic functions inside the random module which are useful for creating randomized games.
+
+### Importing ```random```
+
+We can add the random module to our program by typing:
+```python
+import random
+```
+
+### Calling Functions
+To call functions from the random module we use the syntax ```random.function_name()```
+
+For example:
+```python
+import random
+
+random_num = random.random()
+```
+```random.random()``` generates a random number between 0 and 1, decimal numbers included.
+
+For example, it could generate ```0.7972140627899765```.
+
+### ```random.randint()```
+This generates a random integer between a range of 2 numbers (both included)
+
+#### Example
+```python
+import random
+number = random.randint(1,100) # random integer between 1 and 100 (both included)
+print(nnumber
+```
+
+##### Output
+```
+35
+```
+
+### ```random.randrange()```
+This generates a random integer between a range of 2 numbers, but unlike ```random.randint()``` it will never include the final value in the output. It also allows a step value (similar to the ```range()``` function).
+
+#### Example
+```python
+import random
+
+number = random.randrange(1,100, 2) # see how we added a step value here, now it will only generate an integer excluding 2,4,6,8,... i.e. only odd numbers
+
+print(number)
+```
+
+##### Output
+```
+49
+```
+
+### ```random.choice()```
+This function selects a random value from a sequence (eg: a list)
+
+#### Example
+```python
+import random
+
+# creating a sample list of values
+sample_list = [1,2,3,4,5]
+
+# selecting a random element
+number = random.choice(sample_list)
+
+print(number)
+```
+
+##### Ouput
+```
+3
+```
+
+### ```random.sample()```
+This function allows you to choice 'n' number of items randomly from a sequence (eg:list).
+
+#### Example
+```python
+import random
+
+# creating a sample list
+sample_list = [1,2,3,4,5,6,7,8,9,10]
+
+# getting a sample of values
+sample = random.sample(sample_list, 3) # the 3 means a sample of 3 elements
+
+print(sample)
+```
+
+##### Output
+```python
+[3,2,5]
+```
