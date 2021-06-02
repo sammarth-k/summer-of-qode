@@ -99,7 +99,7 @@ age=int(input("Enter age:"))
 print(100-age,"years till you turn 100")
 ```
 <b>Output</b>
-```python
+```
 Enter age: 15
 85 years till you turn 100
 ```
