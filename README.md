@@ -34,6 +34,9 @@ If you want more resources from Q-Programming, you can check us out on the follo
 2. [Instagram](https://instagram.com/qprogramming) (daily Python resources and tutorials)
 3. [Youtube](https://www.youtube.com/channel/UCyO2DcOyUucyPDWBsbeqgrw) (for video tutorials)
 
+## Badges You Can Earn
+![](/badges/assignment.png) ![](/badges/attendance.png) ![](/badges/project.png) ![](/badges/final.png)
+
 ## Tutorial Contributors
 [@sammarth-k](https://github.com/sammarth-k) [@asterbot](https://github.com/asterbot) [@avi22bhattacharya](https://github.com/sammarth-k) [@Pyrotex2](https://github.com/Pyrotex2) [@dhruv-python](https://github.com/dhruv-python)
 ### How Can I Contribute?
