@@ -1,7 +1,7 @@
 while True:
   age1 = input("Enter your age: ")
-  
-  def is_float(age1):
+
+  def is_age(age1):
     try:
       age1 = float(age1)
 
@@ -18,4 +18,4 @@ while True:
     except ValueError:
       print("Please enter a valid number!")
 
-  is_float(age1)
+  is_age(age1)
