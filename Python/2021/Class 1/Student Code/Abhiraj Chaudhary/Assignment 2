@@ -1,0 +1,5 @@
+shop1 = int(input("Enter number of cups"))
+print(shop1 * 15)
+shop2 = int(input("Enter number of cups"))
+print(shop2 * 30)
+print((shop1 * 15) + (shop2 * 30))
