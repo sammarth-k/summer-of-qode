@@ -58,7 +58,8 @@ print("The value of", number1, "divided by", number2, "without a decimal point i
 ## Home Assignments
 
 * [ ] Input the age of someone and tell them how many years they have before they turn 100 years old
-* [ ] In the shop mentioned in question 2, a toffee costs 30 rupees. Now input both and find the total prices
+* [ ] 2 tea shops sell tea at the price of 15 and 30 rupees per cup. Input the number of cups a person buys from the first shop, then input the number of cups a person buys from the second shop and tell the customer the total bill.
+
 
 ## Other Details
 
