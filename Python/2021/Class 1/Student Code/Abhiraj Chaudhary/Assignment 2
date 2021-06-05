@@ -1,3 +1,5 @@
-input(7 * 15)
-input(8 * 30)
-input (105 + 240)
+shop1 = int(input("Enter number of cups"))
+print(shop1 * 15)
+shop2 = int(input("Enter number of cups"))
+print(shop2 * 30)
+print((shop1 * 15) + (shop2 * 30))
