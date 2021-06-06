@@ -1,0 +1,4 @@
+name = input("Enter your name: ")
+print("Hello",name, sep=", ")
+age = int(input("Enter age:"))
+print(100-age , "years till you turn 100")
