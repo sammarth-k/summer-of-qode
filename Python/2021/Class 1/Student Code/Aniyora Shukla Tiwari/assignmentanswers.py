@@ -1,3 +1,4 @@
+#class assignments 
 num1= int(input("type a number here:"))
 num2= int(input("type an another number here:"))
 print("their product is:",num1*num2)
@@ -15,9 +16,16 @@ second= int(input("enter the second number here:"))
 x= int(first/second)
 print("the quotient is:",x)
 
+#home assingment 
 
 age=int(input("enter your age:"))
 print(" years left to turn 100:",100-age,"years")
+
+#q2 after the update 
+shop1=int(input("cups of coffee bought from shop1,cost of each Rs.15:"))
+shop2= int(input("cups of coffe bought from shop 2, cost of each Rs.30:"))
+
+print("total cost:Rs.",(15*shop1)+(30*shop2))
 
 
 coffee= int(input("number of cups of coffee bought, with one cup costing Rs.30:"))
