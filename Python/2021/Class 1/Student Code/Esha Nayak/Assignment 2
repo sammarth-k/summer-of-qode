@@ -1,0 +1,3 @@
+shop1 = input('Enter the number of cups you bought in the first shop: ')
+shop2 = input('Enter the number of cups you bought in the second shop: ')
+print('As cost of 1 cup in first shop is Rs. 15 and in the second shop is Rs. 30 your total bill is ',int(shop1) * 15 + int(shop2) * 30,'Rs.')
