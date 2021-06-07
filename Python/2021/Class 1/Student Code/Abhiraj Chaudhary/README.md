@@ -3,3 +3,4 @@ This folder contains code and assignments submitted by Abhiraj Chaudhary in Clas
 
 ### Badges
 <img src="/badges/attendance.png" width="200px" height="200px">
+ <img src="/badges/assignment.png" width="200px" height="200px">

@@ -1,4 +1,4 @@
-age = input("what is thy age, dossy?\n")
+age = input("what is your age, dossy?\n")
 age = int(age)
 
 age = 100 - age
