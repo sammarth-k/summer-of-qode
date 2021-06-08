@@ -1,0 +1,7 @@
+chocolates = int(input("Enter the number of chocolates you want to buy: "))
+bill = chocolates * 15
+if (chocolates < 10) :
+  print("Your total bill is :", bill)
+  
+elif (chocolates > 10) :
+  print("Sorry, but this shop does not have those many chocolates")
