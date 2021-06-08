@@ -1,0 +1,14 @@
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Excellent, you got A grade")
+elif marks >= 80:
+    print("Very good, you got B grade")
+elif marks >= 70:
+    print("Good, you got C grade")
+elif marks >= 60:
+    print("You could have done better, you got a D grade")
+elif marks >= 50:
+    print("You need to study harder, you got a E grade")
+else:
+    print("Sorry, you have failed this class. PLease redo the class.")
