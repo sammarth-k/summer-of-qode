@@ -1,0 +1,12 @@
+chocolates = 10
+to_buy = int(input("How many chocolates would you like to buy? "))
+if to_buy <= 10:
+  print ('True. You can buy chocolates!')
+else:
+  print ('False. Those are too many chocolates! You cannot buy them here.')
+
+if to_buy < 11:
+  Number_of_chocolates = (to_buy*15)
+  print ("You have to pay Rs", Number_of_chocolates)
+else:
+  print ('You do not have to pay. Thank you for visiting us.')
