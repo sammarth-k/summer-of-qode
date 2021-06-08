@@ -1,0 +1,29 @@
+#class assignment 1
+number = int(input("Enter a number: "))
+x = 2
+if number > 10:
+    print(x, "is greater than 10")
+else:
+    print(x, "is less than 10")
+
+#class assignment 2
+age = int(input("Enter age: "))
+if age >= 18:
+   print("Eligible to drive")
+else:
+   print("Not eligible to drive")
+
+#class assignment 3
+marks = int(input("Enter Marks: "))
+if marks >= 90:
+    print("A")
+elif marks >= 80:
+    print("B")
+elif marks >= 70:
+    print("C")
+elif marks >= 60:
+    print("D")
+elif marks >= 50:
+    print("E")
+else:
+    print("Please take this class again!")
