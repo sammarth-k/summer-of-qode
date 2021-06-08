@@ -1,0 +1,21 @@
+Question 1
+num = int(input("Enter a number: "))
+if num%2 == 0 :
+  print(num,'is even')
+else:
+  print(num, "is odd")
+
+Question 2
+num1 = int(input("Enter no. of chocolates required: "))
+if num1>10:
+  print("false")
+else:
+  print("true,", "your total price is Rs." , num1*15)
+Question 3
+var1 = int(input("Enter a no. at upper limit: "))
+var2 = int(input('Enter a no. at lower limit: '))
+var3 = int(input("Enter a no. to check: "))
+if var3<=var1 and var3>=var2:
+  print(var3, "is in the range")
+else:
+  print(var3, "is not in range")
