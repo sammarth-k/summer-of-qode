@@ -1,0 +1,5 @@
+number = ""
+while number != "-1":
+    number = input("Enter number: ")
+    
+print("You have entered to -1, hence the the loop has ended")
