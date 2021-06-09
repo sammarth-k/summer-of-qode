@@ -1,0 +1,51 @@
+
+num=int(input("enter a number:"))
+if num<10:
+  print("number is less than 10")
+else:
+  print("number is greater than 10")
+
+
+age= int(input("enter your age:"))
+if age>=18:
+  print("you are elegible to drive ")
+else:
+  print("you are not elegible to to drive")
+
+grade=int(input("Enter your grade:"))
+if grade>=90:
+  print("you have got an A")
+elif grade>=80:
+  print("you got a B")
+elif grade>=70:
+  print("you got a C")
+elif grade>=60:
+  print("you got a D")
+elif grade>=50:
+  print("you got a E ")
+else:
+  print("you got a F and unfortunatly did not pass")
+
+
+#find out wheather odd or even
+number= int(input("Enter a number:"))
+if number%2==0:
+  print("This is an even number")
+else:
+  print("This is an odd number")
+
+#sweets question
+sweets= int(input("number of sweets wanted:"))
+if sweets<=10:
+  print("available,","the cost would be",15*sweets)
+else:
+  print("not available,","we have only 10 sweets available costing Rs.150 in total")
+
+
+num1= int(input("Enter first number:"))
+num2= int(input("Enter the second number:"))
+num3= int(input("Enter number, and wheather its in range betweent number 1 and number 2 would be found out:"))
+if num1<=num3<=num2:
+ print("The number is in range")
+else:
+  print("The number is not in range")
