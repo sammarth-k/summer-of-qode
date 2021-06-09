@@ -1,0 +1,5 @@
+employees = 1
+while employees < 6:
+    name = input("Please enter your name: ")
+    print(name)
+    employees += 1 
