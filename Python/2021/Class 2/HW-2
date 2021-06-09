@@ -37,9 +37,9 @@ else:
 #sweets question
 sweets= int(input("number of sweets wanted:"))
 if sweets<=10:
-  print("available")
+  print("available,","the cost would be",15*sweets)
 else:
-  print("not available,","we have only 10 sweets available")
+  print("not available,","we have only 10 sweets available costing Rs.150 in total")
 
 
 num1= int(input("Enter first number:"))
