@@ -1,0 +1,6 @@
+number = 0
+while number == 0:
+    num = int(input("Please enter a number: "))
+    if num < 0 or num > 50:
+        print("You have entered a number greater than 50 or a negative number, hence the the loop has ended")
+        break 
