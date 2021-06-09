@@ -1,0 +1,7 @@
+lower_range = int(input("Please enter the lower class limit: "))
+upper_range = int(input("Please enter the upper class limit: "))
+number = int(input("Please enter a number to see if it is in the range: "))
+if number >= lower_range and number <= upper_range:
+  print ('Number is in the given range')
+else:
+  print ('Number is not in the given range')
