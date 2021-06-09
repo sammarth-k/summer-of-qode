@@ -78,8 +78,8 @@ print("Hello", "World", sep="*")
 Hello*World
 ```
 
-### Inputting
-To input a value from the user and store it in a variable, we use the ```input()``` command.
+### Input
+To input a value from the user and store it in a variable, we use the ```input()``` function.
 
 We can pass a prompt in the brackets as a string for the user to see. For example
 ```python
@@ -339,11 +339,9 @@ True
 
 ### Membership operators:
 
-Identity operators are used to check whether a given varioable in present in a collection of data. If present, true is returned and false otherwise.
+Identity operators are used to check whether a given variable in present in a collection of data. If present, ```True``` is returned and ```False``` otherwise.
 
-There are two membership operators: in and not in. in checks whether the variable is present in the dataset and not in checks if it is absent from the dataset.
-
-You will understand this better when we do lists and tuples.
+There are two membership operators: ```in``` and ```not in```. in checks whether the variable is present in the dataset and not in checks if it is absent from the dataset.
 
 #### Example:
 

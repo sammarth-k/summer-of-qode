@@ -1,0 +1,4 @@
+number1=int(input("Enter the first number:14"))  
+number2=int(input("Enter the second number:48"))
+product=number1*number2
+print("The product of the two numbers is 672", product)

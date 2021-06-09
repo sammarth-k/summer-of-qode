@@ -1,0 +1,7 @@
+cups1 = input("How many cups of tea did you buy from shop 1: ")
+cups2 = input("How many cups of tea did you buy from shop 2: ")
+mrp1 = 15 * int(cups1)
+mrp2 = 30 * int(cups2)
+
+totalbill = mrp1 + mrp2
+print("Your total bill is: ", totalbill)

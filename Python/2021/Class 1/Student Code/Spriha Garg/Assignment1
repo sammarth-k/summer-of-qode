@@ -1,0 +1,13 @@
+question 1:
+
+age = int(input("enter your age: "))
+var = 100 - age
+print("you will be 100 years in", var, "years")
+
+question 2:
+
+shop1 = int(input("Enter cups purchased from shop 1: "))
+shop2 = int(input("Enter cups purchased from shop 2: "))
+
+bill = (shop1*15)+(shop2*30) 
+print("Total amount is Rs. " , bill)

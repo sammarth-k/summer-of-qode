@@ -4,3 +4,4 @@ This folder contains code and assignments submitted by Yatharth Pawa in Class 1 
 
 ### Badge
 ### Badges
+<img src="/badges/attendance.png" width="200px" height="200px"> <img src="/badges/assignment.png" width="200px" height="200px">
