@@ -1,0 +1,30 @@
+#assignment1
+num1 = int(input("Enter a number: "))
+if (num1%2):
+  print("The number is odd!")
+elif (num1/1):
+  print("Then number is even!")
+
+#assignment2
+var1 = True
+var2 = False 
+chocolate = int(input("Enter number of chocolates needed: "))
+x = chocolate>10
+y = chocolate<10
+if (y):
+  print(var1)
+  print(chocolate*15)
+elif (x):
+  print(var2)
+  print("Chocolate not availble")
+  
+  #assignment3
+  num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number more than number1: "))
+num3 = int(input("Enter a number: "))
+if (num3<num2 and num3>num1):
+  print("The third number is between the first and second number you put")
+else:
+  print("The third number is not between the first and second number")
+  
+  
