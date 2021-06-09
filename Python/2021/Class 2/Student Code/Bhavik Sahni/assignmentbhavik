@@ -1,0 +1,24 @@
+ANS1
+number=int(input("enter a number"))
+remainder = number % 2
+if (remainder ==0):
+  print (number,"is even")
+else:
+  print(number,"is odd")
+ANS2
+chocolates = int(input("Enter how many chocolates you want: "))
+if chocolates > 10:
+ print("there are only 10 available,sorry")
+else:
+ result=chocolates*15
+
+ print(result,"is the total bill thank you")
+
+ANS3
+number = int(input("Enter number between 10 and 20 : "))
+if number>=10 and number<=20:
+  print("the number is in the range")
+else:
+  print("the number isnt in the given range")
+
+
