@@ -1,0 +1,4 @@
+x = 1
+while x<6:
+  input('Enter you name: ')
+  x +=1
