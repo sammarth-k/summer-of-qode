@@ -1,0 +1,7 @@
+lowerlimit = int(input("Enter the lower number(Lower Limit): "))
+upperlimit = int(input("Enter the upper number(Upper Limit): "))
+number = int(input("Enter the 3rd number): "))
+if (number <= upperlimit and number >= lowerlimit):
+  print("The number is between the lower limit and upper limit")
+else:
+  print("The number is not between the lower limit and upper limit")
