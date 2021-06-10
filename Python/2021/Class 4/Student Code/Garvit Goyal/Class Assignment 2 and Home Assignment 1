@@ -1,0 +1,12 @@
+import random
+number = random.randint(1,100)
+print("I have chosen a number between 1 and 100. Try to guess the number")
+guess = int(input("Enter a number: "))
+while guess!=number:
+    if number > guess:
+        print("Sorry, but", guess, "is less than my chosen number")
+    elif number < guess:
+        print("Sorry, but", guess, "is greater than my chosen number")
+    guess = int(input("Enter another number: "))
+    
+print("Very Good", number, "is my chosen number") 
