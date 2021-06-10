@@ -1,0 +1,13 @@
+# class assignment 1
+total = 0
+for i in range(10):
+    num = int(input("Enter number: "))
+    total += num
+
+print("The sum of all 10 numbers is", total)
+
+# class assignment 2
+num = ""
+while num != "-1": 
+    num = input("Enter a number")
+print("-1 is entered")
