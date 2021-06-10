@@ -1,0 +1,14 @@
+import random
+num = random.randint(1,10)
+print ('Number ranges from 1 to 10')
+count = 0
+while count < 3:
+  num2 = int(input("Enter the guess for the number: "))
+  count +=1
+  won = False
+  if num2 == num:
+    print ('You have won!')
+    won = True
+    break
+if won == False:
+  print ("Guess again the number was", num)
