@@ -1,0 +1,27 @@
+import random
+import sys
+
+
+choices = ["Rock", "Paper", "Scissor"]
+sign = random.choice(choices)
+
+
+print(choices)
+userchoice = int(input("Enter a number from 1-3. Rock = 1, Paper = 2 and Scissor = 3: "))
+
+
+if userchoice < 1 or userchoice > 3:
+    print("The number is invalid")
+    sys.exit(0)
+
+
+usersign = choices[userchoice - 1]
+print("The computer chose", sign, "and you chose",  usersign)
+
+
+if sign == choices[0] and usersign == choices[1] or sign == [1] and usersign == choices[2] or sign == choices[2] and usersign == choices[0]:
+    print("YOU WON,YOU GOT LUCKY")
+elif sign == usersign:
+    print("IT IS A TIE, HARD LUCK")
+else:
+    print("YOU LOST, LOL")
