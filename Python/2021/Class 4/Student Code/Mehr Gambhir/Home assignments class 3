@@ -1,0 +1,21 @@
+num = ""
+while num != x>0 and x<50
+    num = input("Enter a number")
+print("-1 is entered")
+
+
+
+input ("what is your name ")
+for i in range(5):
+    name = int(input("Enter name: "))
+
+
+
+
+x = 0
+while (x<10):
+  print (x)
+  x += 1
+  if x == 5:
+    continue
+  print ("hello")

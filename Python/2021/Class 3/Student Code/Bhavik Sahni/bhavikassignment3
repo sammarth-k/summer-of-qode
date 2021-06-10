@@ -1,0 +1,20 @@
+ANS1
+number=int(input("enter a number: "))
+while number<=50:
+    number=int(input("enter a number: "))
+else:
+      print("you entered a number greater than 50 or 50")
+
+AN2
+x=0
+while x<5:
+   (input('enter your name: '))
+   x=x+1
+
+ANS3
+number=4
+x=1
+while x<=25:
+    product=number*x
+    print(product)
+    x=x+1
