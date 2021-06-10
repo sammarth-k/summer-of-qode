@@ -1,0 +1,19 @@
+
+ Question 1:
+ 
+num = int(input('enter a number: '))
+while (num<50 and num>0):
+  num = int(input('enter a number: '))
+
+Question 2:
+
+x = 5
+for i in range (5):
+  print(input('enter name: '))
+  
+  Question 3:
+  
+  x = 4
+while (x<100):
+  print(x)
+  x += 4
