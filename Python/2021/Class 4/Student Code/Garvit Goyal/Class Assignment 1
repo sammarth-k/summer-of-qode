@@ -1,0 +1,9 @@
+import random
+
+list = []
+while len(list) < 5:
+  num = random.randint(1,100)
+  if num in list:
+    continue
+  list.append(num)
+print(list)
