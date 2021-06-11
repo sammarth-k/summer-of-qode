@@ -1,0 +1,68 @@
+Q1) 
+import random
+number = random.randint(1,100)
+print("I have chosen a number between 1 and 100. Try to guess the number")
+guess = int(input("Enter a number: "))
+while guess!=number:
+if number > guess:
+print("Sorry, but", guess, "is less than my chosen number")
+elif number < guess:
+print("Sorry, but", guess, "is greater than my chosen number")
+guess = int(input("Enter another number: "))
+print("Very Good", number, "is my chosen number") Q2) 
+import random
+import sys
+
+choices = ["Rock", "Paper", "Scissor"]
+sign = random.choice(choices)
+
+print(choices)
+userchoice = int(input("Enter a number from 1-3. Rock = 1, Paper = 2 and Scissor = 3: "))
+
+if userchoice < 1 or userchoice > 3:
+print("The number is invalid")
+sys.exit(0)
+
+usersign = choices[userchoice - 1]
+print("The computer chose", sign, "and you chose", usersign)
+
+if sign == choices[0] and usersign == choices[1] or sign == [1] and usersign == choices[2] or sign == choices[2] and usersign == choices[0]:
+print("YOU WON,YOU GOT LUCKY")
+elif sign == usersign:
+print("IT IS A TIE, HARD LUCK")
+else:
+print("YOU LOST, LOL")
+
+Q3) 
+import random
+
+
+
+list = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
+"w", "x", "y", "z"]
+random_list = []
+count = 0
+while count < random.randrange(15, 30):
+count += 1
+random_list.append(list[random.randint(0, len(list) - 1)])
+print(random_list, "is the random array")
+
+
+
+
+count = 0
+final_numbers = []
+while count < 5:
+count+=1
+random_num = random.randint(0, len(random_list) -1)
+final_numbers.append(random_list[random_num])
+
+
+
+duplicates = []
+print(final_numbers, "are 5 random numbers from the array")
+for i in random_list:
+
+if random_list.count(i) >1:
+duplicates.append(i)
+print(duplicates, "are the duplicates")
