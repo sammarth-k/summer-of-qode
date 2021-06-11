@@ -1,0 +1,35 @@
+#assignment1
+
+import random
+
+for x in range (3):
+  num1 = random.randint(1,100)
+  num2 = int(input("Enter your number: "))
+  if num2 == num1:
+    print("You won!")
+  else:
+    print("Guess again")
+
+print("Tough luck! The number was", num1)
+
+#assignment2
+
+import random
+
+user_choice = (input("Enter your weapon: "))
+list1 = ["Rock", "Paper", "Scissors"]
+game = random.choice(list1)
+print(game)
+
+#assignment3
+#I did not understand it but tried
+
+import random
+
+list1 = [1,3,2,4,3,4,5,5,6,4,3,6,7,3]
+nums = random.randint(1,7)
+for x in range (5):
+  print (nums)
+nums1 = list1.count(nums)
+print(nums1)
+
