@@ -1,0 +1,16 @@
+array = [5,2,9,1,4,2,8,4,10,3,8,1,9,2]
+x = 0
+array_2 = [1,1,1,1,1]
+a = 0
+while (x<5):
+  userinput = int(input('Enter a number: '))
+  a = array[userinput]
+  array_2[x] = a
+  x +=1
+print('Selected values are',array_2)
+x = 0
+while (x<5):
+  a = array_2.count(array_2[x])
+  if a > 1:
+    print(array_2[x],'appears',{a},'times')
+  x +=1 
