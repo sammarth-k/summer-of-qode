@@ -1,0 +1,48 @@
+import random
+
+num = random.randint(1, 100)
+tries = 1
+while tries < 4:
+    guess = int(input('try to guess the number chosen between 1 to 100:'))
+    if num == guess:
+        print('that is correct the number indeed:', num)
+        break
+    elif tries ==3:
+        print("The number was :", num)
+        break
+    else:
+        print("the guess is wrong, try again:")
+        tries += 1
+
+import random
+a=['rock','paper','scissior'] 
+b= random.choice(a)
+c= input("Enter rock,paper or scissor:")
+while c== "rock":
+  if b=='paper':
+    print('you win,rock crushes scissor ')
+    break
+  else:
+    print('you loose, rock is enveloped by paper')
+    break
+while c=='paper':
+  if b=="rock":
+    print("you win, as papers covers rock")
+    break
+  else:
+    print("you loose, as scissor cuts paper")
+    break
+while c=="scissor":
+  if b=="rock":
+     print("you loose, as rock crushes scissor")
+     break
+  else:
+    print("you win, as scissor cuts paper")
+    break
+
+import random
+list=["apple"," mango", "orange","grapes",'bananas',1,2,3,4,5,5]
+print(random.sample(list,5))
+
+y=list.count(5)
+print(y)
