@@ -1,0 +1,60 @@
+Question 1;
+
+import random
+
+num = random.randint(1,10)
+for i in range (3) :
+  
+  user_num = int(input("Enter a guess for a number between 1 and 10 (both included): "))
+if user_num == num:
+    print("Congrats! You got it right!")
+else:
+    print("Tough luck! The correct answer was", num)
+    
+Question 2;
+
+import random
+
+user_action= input('rock, paper, scissors, shoot!: ')
+list1 = ['rock', 'paper', 'scissors']
+action = random.choice(list1)
+print(action)
+
+if action==user_action:
+  print("it's a tie")
+elif action== 'rock' and user_action== 'paper':
+  print('You have won')
+elif action== 'paper' and user_action=='scissors':
+  print('You have won')
+elif action== 'scissors' and user_action=="rock":
+  print('You have won')
+else:
+  print('You have lost')
+  
+
+Question 3;
+
+import random
+
+sample_list = [11,22,33,44,55,66,77,88,99]
+random_list = []
+
+for i in range (5):
+  num = random.randint(0,8)
+  x = sample_list[num]
+  random_list.append(x)
+
+print(random_list)
+
+a=0
+
+for i in range(4):
+  if random_list[a]==random_list[a+1]:
+    print('duplicate')
+  elif random_list[a]==random_list[a+ -3]:
+    print('duplicate')
+  elif random_list[a]==random_list[a+ -2]:
+    print('duplicate')
+  elif random_list[a]==random_list[a+ -1]:
+    print('duplicate')
+  a=a+1
