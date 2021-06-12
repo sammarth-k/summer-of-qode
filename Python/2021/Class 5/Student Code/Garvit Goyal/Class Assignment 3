@@ -1,0 +1,5 @@
+def replace(list1, index, value):
+    list1[index] = value
+list1 = [1,2,3,4,5]
+replace(list1, 3, 7)
+print(list1)
