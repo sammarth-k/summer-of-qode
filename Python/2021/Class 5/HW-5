@@ -1,0 +1,15 @@
+list1=[1,2,3,4,5,5,6,5,7]
+  
+def lenght(list1):
+  print(len(list1))
+
+lenght(list1)
+
+def there(element,list):
+   if element in list:
+     print("True")
+   else:
+     print("false ")
+
+
+there(20,list1)
